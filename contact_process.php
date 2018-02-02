@@ -12,7 +12,8 @@
 	$message .= "Message : $mymessage \n";
 	$from = "w.soaringeagle@gmail.com";
 	$headers = "From:" . $from;
-	mail($to,$subject,$message);
-	header('Location: contact.html');
+	 mail($to,$subject,$message);
+	 header('Location: contact.html');
 	exit;
+	
 ?>
